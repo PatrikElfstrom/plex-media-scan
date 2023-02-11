@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "version": "1.0.0",
+  "author": "Patrik Elfström <me@patrikelfstrom.se> (https://patrikelfstrom.se)",
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png",
+    "144": "icons/logo-144.png",
+    "192": "icons/logo-192.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@plex-media-scan"
+    }
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["plex-media-scan.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

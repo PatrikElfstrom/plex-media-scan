@@ -1,0 +1,30 @@
+{
+  "name": "plex-media-scan",
+  "version": "1.0.0",
+  "description": "Plex Media Scan enables you to just scan the selected media and not the entire library",
+  "license": "MIT",
+  "repository": "github:PatrikElfstrom/plex-media-scan",
+  "homepage": "https://github.com/PatrikElfstrom/plex-media-scan#readme",
+  "author": "Patrik Elfström <me@patrikelfstrom.se> (https://patrikelfstrom.se)",
+  "bugs": {
+    "url": "https://github.com/PatrikElfstrom/plex-media-scan/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "tsc",
+    "build": "vite build",
+    "build-extension": "web-ext lint && web-ext build --overwrite-dest",
+    "all": "npm run lint && npm run build && npm run build-extension",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "web-ext": "^7.5.0"
+  },
+  "webExt": {
+    "sourceDir": "dist/",
+    "artifactsDir": "dist/build"
+  }
+}

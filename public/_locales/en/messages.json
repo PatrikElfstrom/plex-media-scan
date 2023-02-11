@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Plex Media Scan",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Plex Media Scan enables you to just scan the selected media and not the entire library",
+    "description": "Description of the extension."
+  },
+
+  "buttonLabel": {
+    "message": "Scan Media Locations",
+    "description": "The label on the main button."
+  }
+}
