@@ -4,7 +4,8 @@
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
   "version": "1.0.0",
-  "author": "Patrik Elfström <me@patrikelfstrom.se> (https://patrikelfstrom.se)",
+  "author": "Patrik Elfström",
+  "homepage_url": "https://github.com/PatrikElfstrom/plex-media-scan#readme",
   "icons": {
     "48": "icons/logo-48.png",
     "96": "icons/logo-96.png",
