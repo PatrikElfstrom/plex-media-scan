@@ -41,11 +41,9 @@ async function refreshMediaLocation(librarySectionID: number, path: string) {
 
   url.searchParams.set("path", path);
 
-  try {
-    get(url);
-  } catch (error) {
+  get(url, { json: false }).catch((error) => {
     logError(error);
-  }
+  });
 }
 
 (async () => {
