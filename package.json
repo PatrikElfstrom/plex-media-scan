@@ -1,6 +1,6 @@
 {
   "name": "plex-media-scan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plex Media Scan enables you to just scan the selected media and not the entire library",
   "license": "MIT",
   "repository": "github:PatrikElfstrom/plex-media-scan",
