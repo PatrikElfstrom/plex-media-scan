@@ -12,6 +12,22 @@
     "144": "icons/logo-144.png",
     "192": "icons/logo-192.png"
   },
+  "screenshots": [
+    {
+      "src": "screenshots/install.png",
+      "sizes": "510x327",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "1. Go yo your plex server. 2. Click extension icon in the top right. 3. Click the cog by the Plex Media Scan extension. 4. Click 'Always Allow on [your plex server]'. 5. Reload the page."
+    },
+    {
+      "src": "screenshots/screenshot.png",
+      "sizes": "414x265",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "A button is added to the top header that allows you to easily scan for new or updated content on just that media."
+    }
+  ],
   "browser_specific_settings": {
     "gecko": {
       "id": "@plex-media-scan"
