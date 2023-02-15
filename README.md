@@ -6,8 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/PatrikElfstrom/plex-media-scan/build.yaml?style=for-the-badge">
-  <img src="https://img.shields.io/github/v/release/PatrikElfstrom/plex-media-scan?style=for-the-badge">
+  <a alt="Download Firefox Add-on" href="https://addons.mozilla.org/firefox/addon/plex-media-scan/"><img src="https://img.shields.io/static/v1?label=Firefox&message=Install&style=for-the-badge&color=informational&logo=firefoxbrowser"></a>
+  <a href="https://github.com/PatrikElfstrom/plex-media-scan/releases"><img src="https://img.shields.io/github/v/release/PatrikElfstrom/plex-media-scan?style=for-the-badge"></a>
+  <a href="https://github.com/PatrikElfstrom/plex-media-scan/actions/workflows/build.yaml"><img src="https://img.shields.io/github/actions/workflow/status/PatrikElfstrom/plex-media-scan/build.yaml?style=for-the-badge"></a>
 </p>
 
 Plex Media Scan is a browser extension that enables you to trigger a Plex library refresh of just the currently selected media without the need to scan the entire library.
