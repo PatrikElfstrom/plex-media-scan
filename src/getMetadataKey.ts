@@ -4,7 +4,7 @@ export function getMetadataKey() {
   const locationHash = document.location.hash;
 
   log(`url hash:`, locationHash);
-  const matchMetadataKey = locationHash.match(/key=(.*)?&/);
+  const matchMetadataKey = locationHash.match(/key=([^&]*)/);
 
   if (matchMetadataKey === null || typeof matchMetadataKey[1] !== "string") {
     throw PMSError(`No metadata key found in location hash: '${locationHash}'`);
